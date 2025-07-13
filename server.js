@@ -22,7 +22,7 @@ try {
   console.log('Tidak bisa load data.json, mulai baru.');
 }
 
-const tiktokUsername = "USERNAME_ANDA"; // Ganti dengan username TikTok Anda
+const tiktokUsername = "catscript03"; // Ganti dengan username TikTok Anda
 let tiktok = new WebcastPushConnection(tiktokUsername);
 
 tiktok.connect().then(() => console.log(`Terhubung ke TikTok live @${tiktokUsername}`))
